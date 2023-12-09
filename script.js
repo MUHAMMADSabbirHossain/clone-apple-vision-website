@@ -31,3 +31,39 @@ function loco() {
 
 }
 loco();
+
+
+gsap.to("#page>video", {
+    scrollTrigger: {
+        tirgger: '#page>video',
+        start: '2% top',
+        end: 'bottom top',
+        scroller: `#main`
+    },
+    onStart: () => {
+        document.querySelector("#page>video").play()
+    }
+})
+
+
+gsap.to("#page", {
+    scrollTrigger: {
+        tirgger: `#page`,
+        start: 'top top',
+        end: `bottom top`,
+        scroller: `#main`,
+        pin: true
+    }
+})
+
+
+gsap.to("#page-bottom", {
+    scrollTrigger: {
+        tirgger: `#page-bottom`,
+        start: '5% top',
+        end: `bottom top`,
+        scroller: `#main`,
+        pin: true
+    },
+    opacity: 0
+})
