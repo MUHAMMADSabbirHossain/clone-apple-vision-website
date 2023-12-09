@@ -49,6 +49,15 @@ body {
     font-weight: 100px;
 }
 
+#page>video {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 #page1 {
     position: relative;
     height: 100vh;
