@@ -487,3 +487,43 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+#page16 {
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page16>h2 {
+    position: absolute;
+    width: 50%;
+    color: #434343c7;
+    font-weight: 500;
+    top: 5%;
+}
+
+#page16>h2>span {
+    color: #000;
+}
+
+#page16>img {
+    width: 60%;
+    position: absolute;
+    bottom: 0%;
+}
+
+#page16>button {
+    position: absolute;
+    bottom: 10%;
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background-color: #ff823d;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
