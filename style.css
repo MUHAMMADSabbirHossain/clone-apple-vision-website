@@ -376,6 +376,22 @@ body {
     background-color: #fff;
 }
 
+#page11>h1 {
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #4d4d4d;
+    z-index: 99;
+    position: absolute;
+}
+
+#page11>h1>span {
+    color: #000;
+}
+
 #page12 {
     position: relative;
     height: 100vh;
